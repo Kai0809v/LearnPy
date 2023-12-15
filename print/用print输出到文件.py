@@ -13,7 +13,7 @@
     或者使用双反斜杠
   file = open("I:\\PYTHON\\2\\output.txt", "w")
 """
-file = open(r"C:\Users\Administrator\Desktop\我的答辩python文件\测试.txt","w")
+file = open(r"C:\Users\Administrator\Desktop\我的python文件\测试.txt","w")
 print("我想应该是允许内容和路径是中文的", file=file)
 file.close()
 #open函数在使用过后需要一个.close()来关闭文件，而with open不需要，这个在打开过后会自动关闭文件
