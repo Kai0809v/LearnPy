@@ -23,3 +23,8 @@
 """
 #例
 file = open(r"C:\Users\Administrator\Desktop\我的python文件\测试.txt","w")
+"""
+相同效果
+file_path ="文件路径"
+with open(file_path, "w") as file:
+"""
