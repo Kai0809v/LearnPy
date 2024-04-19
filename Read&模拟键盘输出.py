@@ -1,4 +1,4 @@
-import pyautogui#可能需要重启一下编辑器
+import pyautogui#需要在终端pip install pyautogui，可能需要重启一下编辑器
 import time as T
 with open('test.txt', 'r',encoding='utf-8') as file: #不指定路径的话默认的是与此脚本同文件夹
     content = file.read() 
