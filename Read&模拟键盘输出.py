@@ -13,6 +13,6 @@ interval=6
 
 while interval>0:
     interval -= 1
-    print(f"将在{interval}秒后开始执行，请确保就绪",end="\r")
+    print(f"将在{interval}秒后开始执行，请确保就绪",end="\r")#\r是覆写
     T.sleep(1)
 TYPE()
