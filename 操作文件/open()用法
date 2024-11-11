@@ -2,9 +2,12 @@
  Python 中，使用内置函数 open() 来打开文件。
  open函数在使用过后需要一个file.close()来关闭文件
 而with open不需要，这个在打开过后会自动关闭
- 该函数有两个参数
- 第一个参数是文件路径（相对路径或绝对路径）
- 第二个参数是打开方式。包括
+
+基本语法:
+file_object = open(file_path, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
+
+ "mode="可以不写，指的是文件的打开模式，包含以下几种，可以组合使用
+
  'r' 只读模式：读取已经存在的文件。
 
  'w' 写入模式：创建一个新文件或覆盖已经存在的文件。在写入模式下，如果文件已经存在，则会被覆盖，并写入新的数据，因此可以用来修改文件。
@@ -14,12 +17,12 @@
  'x' 创建模式：创建一个新文件，如果文件已经存在则会出现错误
 
  'b' 二进制模式：用于处理二进制文件
+组合使用示例
+   'rb'二进制读取模式     r与b模式的组合
+   'wb'二进制写入模式等。
 
  't' 文本模式：用于处理文本文件，是默认模式
 
- 'rb'二进制读取模式
-
- 'wb'二进制写入模式等。
 """
 #例
 file = open(r"C:\Users\Administrator\Desktop\我的python文件\测试.txt","w")
