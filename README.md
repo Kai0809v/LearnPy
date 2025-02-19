@@ -1,2 +1,3 @@
 # LearnPy
-主要是用来充数的
+早期驯服Python资料
+~~Python入门了~~
